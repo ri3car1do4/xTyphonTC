@@ -38,19 +38,23 @@ El repositorio se divide en tres carpetas principales:
    funciones Lambda propias de esta solución.
 3. Código de presentación: En esta carpeta se incluye el código que se va a utilizar para la presentación del trabajo. La única diferencia con los anteriores es el uso de un payload diferente,
    con el objetivo de presentar en directo algo más visual y llamativo. El resto de la solución es idéntico a los anteriores.
-    [!WARNING]
-    AVISO: Ejecutar este código puede producir que se reinicie el ordenador, recomendamos encarecidamente no ejecutarlo si no es en un entorno totalmente controlado.
+   
+    🚨 **AVISO**: Ejecutar este código puede producir que se reinicie el ordenador, recomendamos encarecidamente no ejecutarlo si no es en un entorno totalmente controlado.
 
 ## Cómo ejecutarlo
 
-[!WARNING]
+🚨 **AVISO**
+
 Si se quiere probar, recomendamos ejecutar los códigos de las carpetas solución 1 y solución 2 (que solamente crean un archivo log.txt y abren una ventana). Ejecutar los
 códigos de la carpeta "Código de presentación" puede provocar que se reinicie el ordenador.
 
-[!IMPORTANT]
+⚠️ **IMPORTANTE**
+
 Se debe ejecutar en dispositivos o MVs que tengan Windows como Sistema Operativo.
 
-Hay dos formas de ejecutar el código 
+
+
+Hay dos formas de ejecutar el código:
 
   ### Ejecutable
 
