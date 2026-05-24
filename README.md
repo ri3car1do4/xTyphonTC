@@ -47,7 +47,7 @@ El repositorio se divide en tres carpetas principales:
    es meramente decorativo y simplemente sustituye el binario del fragmento 1 de las soluciones. Esto se hace para demostrar que la herramienta soporta distintos payloads y su función
    es estética a la hora de la presentación.  El binario  realiza el siguiente comando en CMD:
 
-  ** cmd.exe  https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fao2lcwh10f0f1.gif  && shutdown /f /s /t 5**
+  cmd.exe  https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fao2lcwh10f0f1.gif  && shutdown /f /s /t 5
   
    Lo que se hace es abrir el gif en el navegador y luego apagar el sistema en lugar del payload de la solución, que es benigno y solamente abre una ventana Hello World!. 
 
