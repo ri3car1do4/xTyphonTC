@@ -45,7 +45,7 @@ El repositorio se divide en tres carpetas principales:
    funciones Lambda propias de esta solución.
 3. Código de presentación: En esta carpeta se incluye el binario que se va a utilizar en la presentación con el objetivo de presentar en directo algo más visual y llamativo. Este elemento
    es meramente decorativo y simplemente sustituye el binario del fragmento 1 de las soluciones. Esto se hace para demostrar que la herramienta soporta distintos payloads y su función
-   es estética a la hora de la presentación.  El binario  realiza el siguiente comando en CMD: cmd.exe https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJhb2QwZHFzbDFibDFtbXgzeThmNzczaXZycTVtenQ5ZW42NGlwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIDD9ivcLLzIoLFxCC/giphy.gif  && shutdown /f /s /t 5
+   es estética a la hora de la presentación.  El binario  realiza el siguiente comando en CMD: cmd.exe https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJhb2QwZHFzbDFibDFtbXgzeThmNzczaXZycTVtenQ5ZW42NGlwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIDD9ivcLLzIoLFxCC/giphy.gif && shutdown /f /s /t 5
    Lo que se hace es abrir el gif en el navegador y luego apagar el sistema en lugar del payload de la solución, que es benigno y solamente abre una ventana Hello World!. 
 
 ## Cómo ejecutarlo
