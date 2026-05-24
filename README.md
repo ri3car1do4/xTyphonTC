@@ -72,7 +72,9 @@ Hay dos formas de ejecutar el código:
   los servicios de AWS ni añadir el código de las funciones Lambda, puesto que los Loader en su interior tienen una ruta hacia la API Gateway que conecta con esos servicios.
 
   Si se quiere convertir el Loader Python en ejecutable basta con pegar en una terminal de CMD (Símbolo del Sistema) el siguiente comando:
+  ```bash
   python -m PyInstaller --onefile --noconsole --hidden-import=ctypes --hidden-import=psutil _el_archivo.py_
+  ```
 
   ## Factores a considerar
 
@@ -83,5 +85,4 @@ Hay dos formas de ejecutar el código:
 
   El código está protegido con licencia MIT.
 
-  
-**  David Castro García y Ricardo Luque, xTyphonTC.**
+  David Castro García y Ricardo Luque, xTyphonTC.
