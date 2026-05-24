@@ -12,7 +12,7 @@ Tutores:
 - David Pacios Izquierdo (Dpto. Arquitectura de Computadores y Automática)
 
 
-## Resumen / Abstract
+## Resumen
 
 El paradigma serverless ha transformado el desarrollo de aplicaciones en la nube, pero tambien ha abierto nuevas posibilidades para la fragmentación, la ofuscación y la entrega maliciosa de codigo. 
 
