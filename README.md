@@ -43,17 +43,12 @@ El repositorio se divide en tres carpetas principales:
    que tienen el código fragmentado que el _Loader_ debe descargar, orquestar y ejecutar y que se sitúan en AWS.
 2. Solución 2: En ella, está el Loader de la segunda versión (que únicamente llama a la función activadora  y pide el código ensamblado a la función descargadora, Aethon) junto con las
    funciones Lambda propias de esta solución.
-3. Código de presentación: En esta carpeta se incluye el código que se va a utilizar para la presentación del trabajo. La única diferencia con los anteriores es el uso de un payload diferente,
-   con el objetivo de presentar en directo algo más visual y llamativo. El resto de la solución es idéntico a los anteriores.
-   
-    🚨 **AVISO**: Ejecutar este código puede producir que se reinicie el ordenador, recomendamos encarecidamente no ejecutarlo si no es en un entorno totalmente controlado.
+3. Código de presentación: En esta carpeta se incluye el binario que se va a utilizar en la presentación con el objetivo de presentar en directo algo más visual y llamativo. Este elemento
+   es meramente decorativo y simplemente sustituye el binario del fragmento 1 de las soluciones. Esto se hace para demostrar que la herramienta soporta distintos payloads y su función
+   es estética a la hora de la presentación.  El binario  realiza el siguiente comando en CMD: cmd.exe https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWJhb2QwZHFzbDFibDFtbXgzeThmNzczaXZycTVtenQ5ZW42NGlwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XIDD9ivcLLzIoLFxCC/giphy.gif  && shutdown /f /s /t 5
+   Lo que se hace es abrir el gif en el navegador y luego apagar el sistema en lugar del payload de la solución, que es benigno y solamente abre una ventana Hello World!. 
 
 ## Cómo ejecutarlo
-
-🚨 **AVISO**
-
-Si se quiere probar, recomendamos ejecutar los códigos de las carpetas solución 1 y solución 2 (que solamente crean un archivo log.txt y abren una ventana). Ejecutar los
-códigos de la carpeta "Código de presentación" puede provocar que se reinicie el ordenador.
 
 ⚠️ **IMPORTANTE**
 
@@ -85,4 +80,5 @@ Hay dos formas de ejecutar el código:
 
   El código está protegido con licencia MIT.
 
-  David Castro García y Ricardo Luque, xTyphonTC.
+  
+**  David Castro García y Ricardo Luque, xTyphonTC.**
