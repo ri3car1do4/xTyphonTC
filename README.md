@@ -46,6 +46,7 @@ El repositorio se divide en tres carpetas principales:
 3. Código de presentación: En esta carpeta se incluye el binario que se va a utilizar en la presentación con el objetivo de presentar en directo algo más visual y llamativo. Este elemento
    es meramente decorativo y simplemente sustituye el binario del fragmento 1 de las soluciones. Esto se hace para demostrar que la herramienta soporta distintos payloads y su función
    es estética a la hora de la presentación.  El binario  realiza el siguiente comando en CMD:
+   
    ```bash
    cmd.exe  https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fao2lcwh10f0f1.gif  && shutdown /f /s /t 5
     ```
