@@ -28,6 +28,13 @@ en comportamiento cuando se enfrentan a mecanismos de entrega fragmentada sobre 
 - AWS (AWS Lambda, AWS S3, API Gateway)
 - Python
 
+## Limitaciones
+
+- El sistema se desarrolla exclusivamente como prueba de concepto.
+- Arquitectura limitada a un número fijo de elementos (en el caso de la prueba de concepto 3).
+- En ningún momento se ha planteado que esta prueba de concepto pueda ser utilizada como "Plantilla"
+- Su funcionamiento está limitado a Windows, porque es el SO más utilizado por el usuario común (el receptor habitual de los ciberataques).
+
 ## Explicación del repositorio
 
 El repositorio se divide en tres carpetas principales: 
